@@ -1,6 +1,6 @@
 {
   "name": "node-social-counter",
-  "description": "A minimalist pixel tracker.",
+  "description": "Node Social Counter (NSC for short), a on-request-social-shares-counter service.",
   "homepage": "https://github.com/leanazulyoro/node-social-counter.git",
   "keywords": [
     "javascript",
@@ -13,12 +13,6 @@
     "name": "Leandro Almeida"
   },
   "version": "0.1.0",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/leanazulyoro/node-social-counter/raw/master/LICENSE"
-    }
-  ],
   "directories": {
     "lib": "./lib"
   },

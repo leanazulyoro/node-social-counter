@@ -1,6 +1,8 @@
 {
   "port":     "9187",
-  "host":     "localhost",
-  "interval": 60,
-  "endpoint": "http://www.example.com/internal/save_counts"
+  "host":     "127.0.0.1",
+  "interval": 5,
+  "recalc_after": 30,
+  "logging": true,
+  "endpoint": "http://local.stable.tn.com.ar/nsc/save_counts"
 }
