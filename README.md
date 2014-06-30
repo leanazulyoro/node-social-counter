@@ -2,12 +2,10 @@ Node Social Counter
 ===================
 A node-js server to provide social sharing, and visits statistics. It outsources the heavy work of performing the several request to each social network and responses with the collected data to a url of your choosing where you can for example save it to a database.
 
-===================
 Prerequisites: 
 ===================
 For Node Social Counter to work, you need node.js (nodejs.org) and npm (comes with node.js) installed in the server
 
-===================
 Installation & set up
 ===================
 1) Download node-social-counter from https://github.com/leanazulyoro/node-social-counter You can download the zipball, or use git to clone: $ git clone https://github.com/leanazulyoro/node-social-counter.git
