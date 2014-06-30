@@ -2,7 +2,7 @@
   "port":     "9187",
   "host":     "127.0.0.1",
   "interval": 5,
-  "recalc_after": 30,
+  "recalc_after": 20,
   "logging": true,
-  "endpoint": "http://local.stable.tn.com.ar/nsc/save_counts"
+  "endpoint": "http://local.next.tn.com.ar/nsc/save_counts"
 }
