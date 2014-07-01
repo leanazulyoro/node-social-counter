@@ -30,11 +30,11 @@ The "node_modules" directory is created with the following modules in it:
 }
 
 Host & port: the ip address or domain for the host the server is installed in.
-Interval: this value sets the interval (in seconds) in which collected data is sent to the procesing server
-Recalc_after: this value specifies the amount of time (in seconds) that a given url is ignored before it is recalculated
-Logging: enables logging to syslog when requests fail
-Endpoint: this is the url where collected data will be sent to (via POST).
+Interval: this value sets the interval (in seconds) in which collected data is sent to the procesing server.
+Recalc_after: this value specifies the amount of time (in seconds) that a given url is ignored before it is recalculated.
+Logging: enables logging to syslog when requests fail.
+Endpoint: this is the url in the server where collected data will be sent to (via POST).
 
 4) Start the service, specifing the path to the configuration file:
-$ node /path/to/node-social-counter/bin/nsc /path/to/config.json
+$ /path/to/node-social-counter/bin/nsc /path/to/config.json
 
