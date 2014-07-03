@@ -5,8 +5,8 @@
   "recalc_after": 20,
   "logging": true,
   "endpoint": "http://local.next.tn.com.ar/nsc/save_counts",
-  "fb_timeout": 5,
-  "tw_timeout": 5,
-  "g_timeout": 5,
+  "fb_timeout": 5000,
+  "tw_timeout": 5000,
+  "g_timeout": 5000,
   "safe_hosts": ["tn.com.ar", "prepro.tn.com.ar", "local.next.tn.com.ar", "local.stable.tn.com.ar", "pre.tn.com.ar"]
 }
