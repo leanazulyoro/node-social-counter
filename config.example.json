@@ -6,8 +6,13 @@
   "logLevel": ["INFO", "ERROR", "DEBUG"],
   "syslog": true,
   "endpoint": "http://local.stable.tn.com.ar/nsc/save_counts",
+  "flushtimeout": 10,
   "fb_timeout": 5, 
   "tw_timeout": 5, 
   "g_timeout": 5, 
-  "safe_hosts": ["tn.com.ar", "prepro.tn.com.ar", "local.next.tn.com.ar", "local.stable.tn.com.ar", "pre.tn.com.ar"]
+  "safe_hosts": ["tn.com.ar", "prepro.tn.com.ar", "local.next.tn.com.ar", "local.stable.tn.com.ar", "pre.tn.com.ar"],
+  "facebook": {
+    "fb_timeout": 5,
+    "fb_hits_required": 3
+  }
 }
