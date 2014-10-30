@@ -8,13 +8,13 @@
   "flushtimeout": 10,
   "safe_hosts": ["tn.com.ar", "prepro.tn.com.ar", "local.next.tn.com.ar", "local.stable.tn.com.ar", "pre.tn.com.ar"],
   "facebook": {
-    "fb_timeout": 5,
-    "fb_hits_required": 3
+    "timeout": 5,
+    "hits_required": 1
   },
   "twitter": {
-    "tw_timeout": 5
+    "timeout": 5
   },
   "google": {
-    "g_timeout": 5
+    "timeout": 5
   }
 }

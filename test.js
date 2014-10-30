@@ -61,20 +61,16 @@ facebookGetCount = function(url, key){
 
 //facebookQueueProcessed = [];
 
-facebookQueueProcess = function(){
-  
+facebookQueueProcess = function(){  
 
   for (var priority in facebookQueue){
     if (facebookQueue.hasOwnProperty(priority)) {
-
-
 
       for(var key in facebookQueue[priority]){
         if (facebookQueue[priority].hasOwnProperty(key)) {
           target_url = facebookQueue[priority][key];
 
           facebookGetCount(target_url, key);
-
 
         }
       }

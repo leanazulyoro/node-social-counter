@@ -4,4 +4,4 @@ var path = require('path');
 var fs   = require('fs');
 var lib  = path.join(path.dirname(fs.realpathSync(__filename)), '../lib');
 
-require(lib + '/node-social-counter');
+require(lib + '/node-social-counter_priority');
