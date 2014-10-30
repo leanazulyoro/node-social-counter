@@ -20,13 +20,26 @@ The "node_modules" directory is created with the following modules in it:
 - xml2js
 
 3) create a configuration json file (see config.example.json) with the following data:
+
 {
   "port":     "9187",
   "host":     "127.0.0.1",
-  "interval": 5,
-  "recalc_after": 20,
-  "logging": true,
-  "endpoint": "http://www.example.com/nsc/save_counts"
+  "interval": 5, // cada cuanto flushea
+  "recalc_after": 20, // cada cuanto vuelve a consultar a las APIS de las redes
+  "logLevel": ["INFO", "ERROR", "DEBUG"],
+  "endpoint": "http://local.stable.tn.com.ar/nsc/save_counts", // a donde hace el POST (flush)
+  "flushtimeout": 10, // timeout del POST (flush)
+  "safe_hosts": ["tn.com.ar", "prepro.tn.com.ar", "local.next.tn.com.ar", "local.stable.tn.com.ar", "pre.tn.com.ar"],
+  "facebook": { // Facebook settings
+    "fb_timeout": 5,
+    "fb_hits_required": 3 // hits required to call facebook api
+  },
+  "twitter": { // Twitter settings
+    "tw_timeout": 5,
+  },
+  "google": { // Google settings
+    "g_timeout": 5,
+  }
 }
 
 Host & port: the ip address or domain for the host the server is installed in.
