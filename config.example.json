@@ -2,7 +2,7 @@
   "port":     "9187",
   "host":     "127.0.0.1",
   "interval": 5,
-  "recalc_after": 20,
+  "recalc_after": 5,
   "logLevel": ["INFO", "ERROR", "DEBUG"],
   "endpoint": "http://local.stable.tn.com.ar/nsc/save_counts",
   "flushtimeout": 10,
