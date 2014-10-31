@@ -2,19 +2,19 @@
   "port":     "9187",
   "host":     "127.0.0.1",
   "interval": 5,
-  "recalc_after": 5,
+  "recalc_after": 15,
   "logLevel": ["INFO", "ERROR", "DEBUG"],
   "endpoint": "http://local.stable.tn.com.ar/nsc/save_counts",
   "flushtimeout": 10,
   "safe_hosts": ["tn.com.ar", "prepro.tn.com.ar", "local.next.tn.com.ar", "local.stable.tn.com.ar", "pre.tn.com.ar"],
   "facebook": {
-    "fb_timeout": 5,
-    "fb_hits_required": 3
+    "timeout": 10,
+    "hits_required": 3
   },
   "twitter": {
-    "tw_timeout": 5
+    "timeout": 10
   },
   "google": {
-    "g_timeout": 5
+    "timeout": 10
   }
 }
